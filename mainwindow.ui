@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-family:century gothic;
+font-size30px;
+
+}
+
+QFrame
+{
+   background:#333;
+   border-radius:17px;
+
+
+}
+#MainWindow{
+background:rgb(47, 42, 56);
+
+}
+
+
+QPushButton
+{
+background:#360259;
+
+
+border-radius:64	px;
+}
+
+QToolButton
+{
+background:green;
+border-radius:60	px;
+
+}
+
+QLabel
+{
+color:white;
+}
+
+QPushButton
+{
+color-white;
+border-radius:15px;
+}
+
+
+QPushButton:hover
+{
+color:green;
+border-radius: 15px;
+background:#49ebf;
+}
+
+QlineEdit
+{
+background:transparent;
+
+/*border:none;*/
+color:#717072;
+}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>190</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>century gothic</family>
+      <pointsize>-1</pointsize>
+      <italic>true</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+font-size: 30px;
+background:#2f2a38;
+}</string>
+    </property>
+    <property name="text">
+     <string>welсome to Fastgram!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>280</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:#2f2a38;
+font-size: 17px;
+}</string>
+    </property>
+    <property name="text">
+     <string> Please, log  in to continue.</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>350</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>century gothic</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:#e3e3e3;
+font-size: 24px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>410</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:#656b66;
+font-size: 38px;
+color:#13b8d1;
+font-weight: bold;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>330</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:#e3e3e3;
+font-size: 15px;
+color:#017866;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>your phome number</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>20</y>
+      <width>141</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+background:#2f2a38;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>C:/Users/IronService/OneDrive/Зображення/Снимки экрана/зображення_viber_2024-05-31_21-59-31-853-removebg-preview.png</normaloff>C:/Users/IronService/OneDrive/Зображення/Снимки экрана/зображення_viber_2024-05-31_21-59-31-853-removebg-preview.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>111</width>
+      <height>111</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
